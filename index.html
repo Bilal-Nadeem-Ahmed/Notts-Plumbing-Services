@@ -228,58 +228,28 @@
         <div class="row">
           <div class="col s12 m3">
             <img
-              src="https://source.unsplash.com/1600x900/?beach"
+              src="images/img3.jpg"
               alt=""
               class="materialboxed responsive-img"
             />
           </div>
           <div class="col s12 m3">
             <img
-              src="https://source.unsplash.com/1600x900/?travel"
+              src="images/img4.jpg"
               alt=""
               class="materialboxed responsive-img"
             />
           </div>
           <div class="col s12 m3">
             <img
-              src="https://source.unsplash.com/1600x900/?nature"
+              src="images/img5.jpg"
               alt=""
               class="materialboxed responsive-img"
             />
           </div>
           <div class="col s12 m3">
             <img
-              src="https://source.unsplash.com/1600x900/?water,travel"
-              alt=""
-              class="materialboxed responsive-img"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m3">
-            <img
-              src="https://source.unsplash.com/1600x900/?water"
-              alt=""
-              class="materialboxed responsive-img"
-            />
-          </div>
-          <div class="col s12 m3">
-            <img
-              src="https://source.unsplash.com/1600x900/?building"
-              alt=""
-              class="materialboxed responsive-img"
-            />
-          </div>
-          <div class="col s12 m3">
-            <img
-              src="https://source.unsplash.com/1600x900/?trees"
-              alt=""
-              class="materialboxed responsive-img"
-            />
-          </div>
-          <div class="col s12 m3">
-            <img
-              src="https://source.unsplash.com/1600x900/?ship"
+              src="images/img6.jpg"
               alt=""
               class="materialboxed responsive-img"
             />
@@ -288,28 +258,58 @@
         <div class="row">
           <div class="col s12 m3">
             <img
-              src="https://source.unsplash.com/1600x900/?beaches"
+              src="images/img7.jpg"
               alt=""
               class="materialboxed responsive-img"
             />
           </div>
           <div class="col s12 m3">
             <img
-              src="https://source.unsplash.com/1600x900/?traveling"
+              src="images/img8.jpg"
               alt=""
               class="materialboxed responsive-img"
             />
           </div>
           <div class="col s12 m3">
             <img
-              src="https://source.unsplash.com/1600x900/?bridge"
+              src="images/img9.jpg"
               alt=""
               class="materialboxed responsive-img"
             />
           </div>
           <div class="col s12 m3">
             <img
-              src="https://source.unsplash.com/1600x900/?boat,travel"
+              src="images/img10.jpg"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              src="images/image11.jpg"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="images/image12.jpg"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="images/image13.jpg"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="images/image14.jpg"
               alt=""
               class="materialboxed responsive-img"
             />
@@ -345,13 +345,13 @@
             <div class="card-panel grey lighten-3">
               <h5>Please fill out this form</h5>
               <div class="input-field">
-                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Name" required/>
               </div>
               <div class="input-field">
-                <input type="text" placeholder="Email" />
+                <input type="text" placeholder="Email" required/>
               </div>
               <div class="input-field">
-                <input type="text" placeholder="Phone" />
+                <input type="text" placeholder="Phone" required/>
               </div>
               <div class="input-field">
                 <textarea
@@ -385,20 +385,7 @@
         interval: 6000,
       });
 
-      //Autocomplete
-      const ac = document.querySelector(".autocomplete");
-      M.Autocomplete.init(ac, {
-        data: {
-          Greece: null,
-          Istanbul: null,
-          Spain: null,
-          Italy: null,
-          France: null,
-          Germany: null,
-          Poland: null,
-          Serbia: null,
-        },
-      });
+      
 
       // Material Boxed
       const mb = document.querySelectorAll(".materialboxed");
