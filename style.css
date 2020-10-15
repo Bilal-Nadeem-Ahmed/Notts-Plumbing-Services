@@ -3,3 +3,9 @@
     font-size: 1.3rem;
   }
 }
+
+h5,
+.it {
+  font-style: italic;
+  font-weight: bold;
+}
