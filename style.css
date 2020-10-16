@@ -9,3 +9,8 @@ h5,
   font-style: italic;
   font-weight: bold;
 }
+
+.collection-item {
+  display: flex;
+  align-items: center;
+}
